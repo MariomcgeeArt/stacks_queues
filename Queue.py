@@ -4,7 +4,7 @@ class Queue:
 
 
 
-    def enque(self, item):
+    def enqueue(self, item):
         self.my_queue.append(item)
     #note the implementtion of this function is not using pop function because of the way
     #we are setting up the que with the front being on one end vs the back
