@@ -51,7 +51,7 @@ class LinkedList(object):
             self.head.next = new_head
             self.head = new_head
 
-        def delete_from_head(self):
+        def delete_from_head2(self):
             self.head = self.head.next
 
 
